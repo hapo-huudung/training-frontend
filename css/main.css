@@ -1,0 +1,6 @@
+.rectangle  {
+    background-image: url("img/Rectangle.jpg");
+    background-repeat: repeat-x;
+    width: 1920px;
+    height: 875px;
+}
