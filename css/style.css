@@ -17,7 +17,7 @@ header{
     line-height: 16px;
     background: none;
     border: 0;
-    margin-left: 70%;
+    margin-left: 80%;
 
 }
 
@@ -27,7 +27,7 @@ header{
     border: 2px solid #8BC34A;
     border-radius: 100px;
 
-    margin-left: 1.98%;
+    margin-left: 2%;
     background: none;
     color: #8BC34A;
     font-family: Roboto;
@@ -143,8 +143,7 @@ header{
 .container-2{
     height: 663px;
     width: 100%;
-    background-color: #FFFFFF;
-    box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);  }
+}
 .container-2 .contain-1{
     width: 35%;
     margin-left: 10%;
@@ -172,10 +171,6 @@ header{
     text-align: center;
     color: #FFFFFF;
     font-family: Roboto;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    line-height: 24px;
 }
 .group  .oval{
     box-sizing: border-box;
@@ -183,10 +178,21 @@ header{
     width: 109.5px;
     border: 2.5px solid #FFFFFF;
     border-radius: 50%;
-    margin-top: 70px;
-    margin-left: 90px;
+    margin-left: 35%;
+    margin-right: 30%;
+    margin-top: 80px;
     margin-bottom: 30px;
     position: relative;
+}
+.oval .mini-oval{
+    box-sizing: border-box;
+    height: 45.5px;
+    width: 45.5px;
+    border-radius: 50%;
+    border: 2.5px solid #FFFFFF;
+    background-color: #7CB342;
+    position: absolute;
+    margin-left: 28% ;
 }
 
 .oval [class^="ti-"]{
@@ -196,5 +202,16 @@ header{
     transform: translate(-50%, -50%);
 }
 
-
+.group p {
+    margin-left: 20%;
+    margin-right: 5%;
+}
+.container-4{
+    height: 650px;
+    width: 100%;
+}
+.container-4 .contain-1 {
+    width: 30%;
+    margin-left: 10%;
+}
 
