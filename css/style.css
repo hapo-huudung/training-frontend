@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-html{
-    overflow: auto;
-}
 header{
     padding-top: 53px;
     height: 825px;
@@ -66,16 +63,16 @@ header{
 .icon-container .icon [class^="ti-"]{
     font-size: 48px;
 }
-.text-1 {
+.login .text {
     margin-top: 53px;
     text-align: center;
 }
-.text-1 p{
-    height: 24px;
+.login .text p{
     color: #283238;
     font-family: Roboto;
     font-size: 18px;
-    font-style: italic;	line-height: 24px;
+    font-style: italic;
+    line-height: 24px;
 }
 .header-button{
     margin-top: 22px;
@@ -101,7 +98,7 @@ header{
      cursor: pointer;
  }
 
- .container-1{
+ .todayILearnt{
      height: 661px;
      width: 1920px;
      background-color: #FFFFFF;
@@ -113,7 +110,7 @@ header{
      color: #444444;
      margin-right: 19px;
  }
-.container-1 .contain-2 .title{
+.todayILearnt .contain-right .title{
     height: 63px;
     color: #444444;
     font-family: Roboto;
@@ -121,7 +118,7 @@ header{
     font-weight: 300;
     line-height: 63px;
 }
-.container-1 .contain-2{
+.todayILearnt .contain-right{
     height: 661px;
     width: 555px;
     margin-left: 975px;
@@ -129,15 +126,14 @@ header{
     position: absolute;
 }
 
-.container-1 .contain-1{
+.todayILearnt .contain-left{
     height: 661px;
     width: 609px;
     margin-left: 220px;
     margin-top: 50px;
     position: absolute;
 }
-.text{
-    height: 19px;
+.todayILearnt .text{
     color: #283238;
     font-family: Roboto;
     font-size: 14px;
@@ -145,8 +141,15 @@ header{
     line-height: 19px;
     margin-top: 16px;
 }
-.text-2{
-    height: 168px;
+.dailyReport .text{
+    color: #283238;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+    margin-top: 16px;
+}
+.text-content{
     width: 545px;
     color: #283238;
     font-family: Roboto;
@@ -156,12 +159,12 @@ header{
     margin-bottom: 40px;
 }
 
-.container-2{
+.dailyReport{
     height: 652px;
     width: 1920px;
     position: relative;
 }
-.container-2 .contain-1{
+.dailyReport .contain{
     height: 652px;
     width: 457px;
     margin-left: 390px;
@@ -169,19 +172,18 @@ header{
     margin-right: 1073px;
     position: absolute;
 }
-.container-2 > img {
+.dailyReport > img {
     height: 652px;
     width: 870px;
     margin-left: 1050px;
     position: absolute;
 }
-}
-.ti-ruler-pencil{
+.ti-write{
     font-size: 36px;
     color: #444444;
-    margin-right: 18px;
+    margin-right:18px;
 }
-.container-2 .contain-1 .title{
+.dailyReport .contain .title{
     height: 63px;
     color: #444444;
     font-family: Roboto;
@@ -189,7 +191,7 @@ header{
     font-weight: 300;
     line-height: 63px;
 }
-.container-2 .contain-1 .text
+.dailyReport .contain .text
 {
     height: 19px;
     color: #283238;
@@ -199,7 +201,7 @@ header{
     line-height: 19px;
     margin-top: 16px;
 }
-.container-2 .contain-1 .text-2
+.dailyReport .contain .text-2
 {
     height: 192px;
     width: 453px;
@@ -210,20 +212,20 @@ header{
     text-align: justify;
     margin-bottom: 40px;
 }
-.container-3{
+.circle{
     height: 322px;
     width: 1920px;
     background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
     position: relative;
 }
-.container-3 .contain{
+.circle .contain{
     height: 322px;
     width: 1200px;
     margin-left: 322px;
     position: absolute;
 }
 
-.container-3 .contain .group{
+.circle .contain .group{
     width: 20%;
     float: left;
     text-align: center;
@@ -271,24 +273,24 @@ header{
 .group p {
     margin-top: 50px;
 }
-.container-4{
+.members{
     height: 574px;
     width: 1920px;
     position: relative;
 }
-.container-4 >img {
+.members >img {
     margin-left: 1000px;
     margin-top: 97px;
     position: absolute;
 }
-.container-4 .contain-1 {
+.members .contain {
     height: 574px;
     width: 564px;
     margin-left:389px;
     margin-top: 97px;
     position: absolute;
 }
-.container-4 .contain-1 .title{
+.members .contain .title{
     color: #444444;
     font-family: Roboto;
     font-size: 48px;
@@ -300,38 +302,43 @@ header{
     color: #444444;
     margin-right: 18px;
 }
-.check-box .ti-check-box
+.members .line .ti-check-box
 {
     margin-right: 18px;
     font-size: 18px;
-    position: absolute;
+    position:absolute;
 }
-.check-box {
+.members .line >p {
+    margin-left: 40px;
+    margin-top: 17px;
+}
+.members .line {
     width: 519px;
     color: #283238;
     font-family: Roboto;
     font-size: 13px;
     margin-bottom: 17px;
+    position: relative;
 }
 .button{
     margin-top: 30px;
 }
 
-.container-5{
+.customers{
     height: 661px;
     width: 1920px;
     background-color: #FFFFFF;
     box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
     position: relative;
 }
-.container-5 >img  {
+.customers >img  {
     margin-left: 100px;
     margin-top: 30px;
     height: 540px;
     width: 700px;
     position: absolute;
 }
-.container-5 .contain-2
+.customers .contain
 {
     height: 661px;
     width: 556px;
@@ -339,7 +346,7 @@ header{
     margin-top: 129px;
     position: absolute;
 }
-.container-5 .contain-2 .title
+.customers .contain .title
 {
     height: 63px;
     color: #444444;
@@ -353,25 +360,30 @@ header{
     font-size: 36px;
     color: #444444;
 }
-.mini-box{
+.customers .line{
     width: 556px;
     color: #283238;
     font-family: Roboto;
     font-size: 14px;
     margin-bottom: 17px;
+    position: relative;
 }
-.mini-box [class^="ti-"]{
+.customers .line [class^="ti-"]{
     position: absolute;
     margin-right: 17px;
     font-size: 18px;
 }
-.container-6{
+.customers .line p{
+    margin-left: 35px;
+    margin-top: 17px;
+}
+.ourCustomer{
     height:544px;
     width: 1920px;
     background-image: url("../img/Rectangle 3.jpg");
     position: relative;
 }
-.container-6 .contain{
+.ourCustomer .contain{
     height: 200px;
     width: 1130px;
     text-align: center;
@@ -380,13 +392,13 @@ header{
     margin-top: 147px;
     position: absolute;
 }
-.container-6 .contain .group-avatar{
+.ourCustomer .contain .info{
     width: 12.5%;
     height: 200px;
     float: left;
     color: #FFFFFF;
 }
-.group-avatar .oval-1{
+.info .oval-ava-small{
     height: 80px;
     width: 79.36px;
     border: 2px solid #93A4AD;
@@ -395,27 +407,28 @@ header{
     margin-top: 14px;
     position: relative;
 }
-.group-avatar .oval-2{
+.info .oval-ava-big{
     height: 100px;
     width: 99.2px;
     border: 2px solid #FFFFFF;
     border-radius: 100px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 10px;
     position: relative;
 }
-.oval-2 >img{
+.oval-ava-big >img{
     height: 100px;
     width: 99.2px;
 }
-[class^="oval-"] .p-1{
-    line-height: 13px;
+.info >p{
+    line-height: 14px;
+    margin-left: 40px;
     margin-top: 16px;
-    font-size: 13px;
+    font-size: 14px;
     position: absolute;
 }
 
-.container-6>p{
+.ourCustomer>p{
     height: 63px;
     width: 300px;
     color: #FFFFFF;
@@ -427,15 +440,15 @@ header{
     position: absolute;
     margin-left: 805px;
 }
-.container-6 .ti-quote-left{
-;	color: #FFFFFF;
+.ourCustomer .ti-quote-left{
+	color: #FFFFFF;
     font-size: 72px;
     margin-left: 487px;
     margin-top: 335px;
     opacity: 0.4;
     position: absolute;
 }
-.container-6 .description{
+.ourCustomer .description{
     height: 105px;
     width: 760px;
     margin-left: 586px;
@@ -448,33 +461,34 @@ header{
     text-align: justify;
     position: absolute;
 }
-.container-6 .ti-quote-right {
-;	color: #FFFFFF;
+.ourCustomer .ti-quote-right {
+	color: #FFFFFF;
     font-size: 72px;
     margin-left: 1362px;
     margin-top: 442px;
     opacity: 0.4;
     position: absolute;
 }
-.container-7{
+
+.project{
     width: 1920px;
     height: 644px;
     background-color: #FFFFFF ;
     position: relative;
 }
-.container-7 >img{
+.project >img{
     height: 644px;
     width: 720px;
     margin-left: 970px;
     position: absolute;
 }
-.container-7 .contain-1{
+.project .contain-left{
     width: 457px;
     height: 644px;
     margin-left: 390px;
     position: absolute;
 }
-.container-7 .title{
+.project .title{
     margin-top: 97px;
     font-family: Roboto;
     font-size: 48px;
@@ -486,7 +500,7 @@ header{
     color: #444444;
     margin-right: 18px;
 }
-.text-3{
+.project .contain-left .text{
     color: #283238;
     font-family: Roboto;
     font-size: 13px;
@@ -494,7 +508,7 @@ header{
     line-height: 19px;
     margin-top: 16px;
 }
-.container-7 .contain-1 >p {
+.project .contain-left >p {
     height: 192px;
     width: 456px;
     color: #283238;
@@ -504,7 +518,7 @@ header{
     text-align: justify;
     margin-top: 30px;
 }
-.container-7 .contain-1 button{
+.project .contain-left button{
     margin-left: 2px;
     margin-top: 30px;
 }
@@ -522,18 +536,18 @@ header{
     width: 900px;
     position: absolute;
 }
-.contain .table{
+.contain .column{
     width: 20%;
     float: left;
     color: #FFFFFF;
     font-family: Roboto;
 }
-.contain .table >img{
+.contain .column >img{
     margin-top: 10px;
     height: 29px;
     width: 96px;
 }
-.contain .table .p-1{
+.contain .column .copyright{
     color: #D0D8DC;
     font-family: Roboto;
     font-size: 14px;
@@ -543,7 +557,7 @@ header{
     margin-bottom: 14px;
     position: relative;
 }
-.contain .table .p-2{
+.contain .column .p-content{
     color: #D0D8DC;
     font-family: Roboto;
     font-size: 14px;
@@ -552,7 +566,7 @@ header{
     margin-top: 10px;
     position: relative;
 }
-.contain .table .p-0{
+.contain .column .p-title{
     height: 18px;
     width: 120px;
     color: #8BC34A;
@@ -562,7 +576,7 @@ header{
     line-height: 18px;
     position: relative;
 }
-.contain .table ul{
+.contain .column ul{
     text-align: left;
     position: relative;
     margin-top: 100px;
