@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 header{
     padding-top: 53px;
-    min-height: 825px;
-    width: 100%;
+    height: 825px;
+    width: 1920px;
     background-image: url("../img/rectangle .jpg");
     background-repeat: no-repeat;
+}
+body{
+    margin: 0px;
 }
 .login .about-us {
     height: 16px;
@@ -14,10 +17,9 @@ header{
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 16px;
     background: none;
     border: 0;
-    margin-left: 80%;
+    margin-left: 1344px;
 
 }
 
@@ -27,7 +29,7 @@ header{
     border: 2px solid #8BC34A;
     border-radius: 100px;
 
-    margin-left: 2%;
+    margin-left: 38px;
     background: none;
     color: #8BC34A;
     font-family: Roboto;
@@ -39,45 +41,47 @@ header{
 
 .hapo-erp{
     margin-top: 175px;
-    margin-left: 43.33%;
+    margin-left: 832px;
 }
-
 .icon-container{
-    height: 170px;
+    height: 110px;
+    width: 900px;
     margin-top: 53px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 507px;
 }
 .icon-container .icon{
     float: left;
     width: 33.33%;
     text-align: center;
 }
-.icon-container p{
+.icon p{
     height: 48px;
     color: #283238;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 300;
     line-height: 48px;
+    margin-top: 24px;
 }
-[class^="ti-"]{
+.icon-container .icon [class^="ti-"]{
     font-size: 48px;
 }
-.text-1 {
+.login .text {
     margin-top: 53px;
     text-align: center;
 }
-.text-1 p{
-    height: 24px;
+header .text p{
     color: #283238;
     font-family: Roboto;
-    font-size: 18px;
-    font-style: italic;	line-height: 24px;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 24px;
+    width: 600px;
+    margin-left: 698px;
 }
 .header-button{
-    margin-top: 30px;
-    margin-left: 43%;
+    margin-top: 22px;
+    margin-left: 847px;
 }
  .start-now{
      padding: 18px,55px;
@@ -93,19 +97,25 @@ header{
      letter-spacing: 1px;
      line-height: 24px;
 }
- .container{
+
+ .start-now:hover {
+     background: linear-gradient(311.12deg, #429321 0%, #B4EC51 100%);
+     cursor: pointer;
+ }
+
+ .todayILearnt{
      height: 661px;
-     width: 100%;
+     width: 1920px;
      background-color: #FFFFFF;
      box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+     position: relative;
  }
  .ti-bookmark-alt{
      font-size: 36px;
      color: #444444;
-     margin-right: 1%;
-
+     margin-right: 19px;
  }
-.title{
+.todayILearnt .contain-right .title{
     height: 63px;
     color: #444444;
     font-family: Roboto;
@@ -113,59 +123,114 @@ header{
     font-weight: 300;
     line-height: 63px;
 }
-.container .contain-2{
+.todayILearnt .contain-right{
     height: 661px;
-    margin-left: 51%;
-    margin-right: 11%;
-    padding-top: 130px;
+    width: 555px;
+    margin-left: 975px;
+    margin-top: 129px;
+    position: absolute;
 }
-.text{
-    height: 20px;
+
+.todayILearnt .contain-left{
+    height: 661px;
+    width: 609px;
+    margin-left: 220px;
+    margin-top: 50px;
+    position: absolute;
+}
+.todayILearnt .text{
     color: #283238;
     font-family: Roboto;
-    font-size: 15px;
+    font-size: 14px;
     font-style: italic;
     line-height: 19px;
     margin-top: 16px;
 }
-.text-2{
-    height: 188px;
-    width: 100%;
+.dailyReport .text{
     color: #283238;
     font-family: Roboto;
     font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+    margin-top: 16px;
+}
+.todayILearnt .text-content{
+    width: 545px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 13px;
     line-height: 24px;
     text-align: justify;
-}
-.div1 {
-    margin-top: 40px;
-}
-.container-2{
-    height: 663px;
-    width: 100%;
-}
-.container-2 .contain-1{
-    width: 35%;
-    margin-left: 10%;
-    padding-top: 130px;
-}
-.ti-ruler-pencil{
-    font-size: 36px;
-    color: #444444;
-    margin-right: 1%;
-}
-.container-3{
-    height: 322px;
-    width: 100%;
-    background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
-}
-.container-3 .contain{
-    height: 240px;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-bottom: 40px;
+    margin-top: 35px;
 }
 
-.container-3 .contain .group{
+.dailyReport{
+    height: 652px;
+    width: 1920px;
+    position: relative;
+}
+.dailyReport .contain{
+    height: 652px;
+    width: 457px;
+    margin-left: 390px;
+    margin-top: 144px;
+    margin-right: 1073px;
+    position: absolute;
+}
+.dailyReport > img {
+    height: 652px;
+    width: 870px;
+    margin-left: 1050px;
+    position: absolute;
+}
+.ti-write{
+    font-size: 36px;
+    color: #444444;
+    margin-right:18px;
+}
+.dailyReport .contain .title{
+    height: 63px;
+    color: #444444;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 63px;
+}
+.dailyReport .contain .text
+{
+    color: #283238;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 19px;
+    margin-top: 16px;
+}
+.dailyReport .contain .text-content
+{
+    width: 453px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.circle{
+    height: 322px;
+    width: 1920px;
+    background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+    position: relative;
+}
+.circle .contain{
+    height: 322px;
+    width: 1200px;
+    margin-left: 322px;
+    position: absolute;
+}
+
+.circle .contain .group{
     width: 20%;
     float: left;
     text-align: center;
@@ -178,10 +243,8 @@ header{
     width: 109.5px;
     border: 2.5px solid #FFFFFF;
     border-radius: 50%;
-    margin-left: 35%;
-    margin-right: 30%;
-    margin-top: 80px;
-    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-top: 69px;
     position: relative;
 }
 .oval .mini-oval{
@@ -193,25 +256,359 @@ header{
     background-color: #7CB342;
     position: absolute;
     margin-left: 28% ;
+    margin-top: 82px;
 }
-
+.oval .mini-oval p{
+    height: 32px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 24px;
+    position: absolute;
+    margin-left:14px ;
+    margin-top: 7px;
+}
 .oval [class^="ti-"]{
     color: #FFFFFF;
+    font-size: 36px;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
 .group p {
-    margin-left: 20%;
-    margin-right: 5%;
+    margin-top: 50px;
 }
-.container-4{
-    height: 650px;
-    width: 100%;
+.members{
+    height: 574px;
+    width: 1920px;
+    position: relative;
 }
-.container-4 .contain-1 {
-    width: 30%;
-    margin-left: 10%;
+.members >img {
+    margin-left: 1000px;
+    margin-top: 97px;
+    position: absolute;
+}
+.members .contain {
+    height: 574px;
+    width: 564px;
+    margin-left:389px;
+    margin-top: 97px;
+    position: absolute;
+}
+.members .contain .title{
+    color: #444444;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 63px;
+}
+.title .ti-user{
+    font-size: 36px;
+    color: #444444;
+    margin-right: 18px;
+}
+.members .line .ti-check-box
+{
+    margin-right: 18px;
+    font-size: 18px;
+    position:absolute;
+}
+.members .line >p {
+    margin-left: 40px;
+    margin-top: 17px;
+}
+.members .line {
+    width: 519px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 13px;
+    margin-bottom: 17px;
+    position: relative;
+}
+.button{
+    margin-top: 30px;
+}
+
+.customers{
+    height: 661px;
+    width: 1920px;
+    background-color: #FFFFFF;
+    box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+    position: relative;
+}
+.customers >img  {
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 540px;
+    width: 700px;
+    position: absolute;
+}
+.customers .contain
+{
+    height: 661px;
+    width: 556px;
+    margin-left: 975px;
+    margin-top: 129px;
+    position: absolute;
+}
+.customers .contain .title
+{
+    height: 63px;
+    color: #444444;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 63px;
+}
+.title .ti-face-smile{
+    margin-right: 19px;
+    font-size: 36px;
+    color: #444444;
+}
+.customers .text{
+    color: #283238;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
+.customers .line{
+    width: 556px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 17px;
+
+    position: relative;
+}
+.customers .line [class^="ti-"]{
+    position: absolute;
+    margin-right: 17px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.customers .line p{
+    margin-left: 35px;
+    margin-top: 17px;
+}
+.ourCustomer{
+    height:544px;
+    width: 1920px;
+    background-image: url("../img/Rectangle 3.jpg");
+    position: relative;
+}
+.ourCustomer .contain{
+    height: 200px;
+    width: 1130px;
+    text-align: center;
+    float: left;
+    margin-left: 398px;
+    margin-top: 147px;
+    position: absolute;
+}
+.ourCustomer .contain .info{
+    width: 12.5%;
+    height: 200px;
+    float: left;
+    color: #FFFFFF;
+}
+.info .oval-ava-small{
+    height: 80px;
+    width: 79.36px;
+    border: 2px solid #93A4AD;
+    border-radius: 100px;
+    margin-left: 30px;
+    margin-top: 14px;
+    position: relative;
+}
+.info .oval-ava-big{
+    height: 100px;
+    width: 99.2px;
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+.oval-ava-big >img{
+    height: 100px;
+    width: 99.2px;
+}
+.info >p{
+    line-height: 14px;
+    margin-left: 40px;
+    margin-top: 16px;
+    font-size: 14px;
+    position: absolute;
+}
+
+.ourCustomer>p{
+    height: 63px;
+    width: 300px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 63px;
+    text-align: center;
+    position: absolute;
+    margin-left: 805px;
+}
+.ourCustomer .ti-quote-left{
+	color: #FFFFFF;
+    font-size: 72px;
+    margin-left: 487px;
+    margin-top: 335px;
+    opacity: 0.4;
+    position: absolute;
+}
+.ourCustomer .description{
+    height: 105px;
+    width: 760px;
+    margin-left: 586px;
+    margin-top: 360px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: justify;
+    position: absolute;
+}
+.ourCustomer .ti-quote-right {
+	color: #FFFFFF;
+    font-size: 72px;
+    margin-left: 1362px;
+    margin-top: 442px;
+    opacity: 0.4;
+    position: absolute;
+}
+
+.project{
+    width: 1920px;
+    height: 644px;
+    background-color: #FFFFFF ;
+    position: relative;
+}
+.project >img{
+    height: 644px;
+    width: 720px;
+    margin-left: 970px;
+    position: absolute;
+}
+.project .contain-left{
+    width: 457px;
+    height: 644px;
+    margin-left: 390px;
+    position: absolute;
+}
+.project .title{
+    margin-top: 97px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 63px;
+}
+.title .ti-calendar{
+    font-size: 36px;
+    color: #444444;
+    margin-right: 18px;
+}
+.project .contain-left .text{
+    color: #283238;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 19px;
+    margin-top: 16px;
+}
+.project .contain-left >p {
+    height: 192px;
+    width: 456px;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.project .contain-left button{
+    margin-left: 2px;
+    margin-top: 30px;
+}
+.footer{
+    height: 180px;
+    width: 1920px;
+    background-color: #39474E;
+    box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+    position: relative;
+}
+.footer .contain{
+    margin-left: 389px;
+    margin-top: 45px;
+    height: 112px;
+    width: 900px;
+    position: absolute;
+}
+.contain .column{
+    width: 20%;
+    float: left;
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+.contain .column >img{
+    margin-top: 10px;
+    height: 29px;
+    width: 96px;
+}
+.contain .column .copyright{
+    color: #D0D8DC;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    margin-top: 40px;
+    margin-bottom: 14px;
+    position: relative;
+}
+.contain .column .p-content{
+    color: #D0D8DC;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    margin-top: 10px;
+    position: relative;
+}
+.contain .column .p-title{
+    height: 18px;
+    width: 120px;
+    color: #8BC34A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    position: relative;
+}
+.contain .column ul{
+    text-align: left;
+    position: relative;
+    margin-top: 100px;
+}
+.footer .contain-2{
+    width: 200px;
+    margin-left: 1365px;
+    margin-top: 108px;
+    position: absolute;
+}
+.footer .contain-2 [class^="ti-"]
+{
+    color: #8BC34A;
+    font-size: 15px;
+    line-height: 13px;
+    margin-right: 20px;
 }
 
