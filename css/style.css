@@ -513,8 +513,9 @@ header .text p{
 }
 .project >img{
     height: 644px;
-    width: 720px;
+    width: 666px;
     margin-left: 970px;
+    margin-top: 70px;
     position: absolute;
 }
 .project .contain-left{
