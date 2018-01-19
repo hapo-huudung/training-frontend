@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 header{
-    padding-top: 53px;
     height: 825px;
     width: 1920px;
     background-image: url("../img/rectangle .jpg");
@@ -18,8 +17,9 @@ body{
     font-weight: 500;
     letter-spacing: 1px;
     background: none;
-    border: 0;
+    border: none;
     margin-left: 1344px;
+    margin-top: 43px;
 
 }
 
@@ -29,7 +29,6 @@ body{
     border: 2px solid #8BC34A;
     border-radius: 100px;
 
-    margin-left: 38px;
     background: none;
     color: #8BC34A;
     font-family: Roboto;
@@ -37,6 +36,9 @@ body{
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 16px;
+    margin-top: 43px;
+    margin-left: 38px;
+
 }
 
 .hapo-erp{
@@ -88,6 +90,7 @@ header .text p{
      height: 60px;
      width: 225px;
      border-radius: 100px;
+     border: none;
      background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
      color: #FFFFFF;
      font-family: Roboto;
@@ -131,8 +134,7 @@ header .text p{
 }
 
 .todayILearnt .contain-left{
-    height: 661px;
-    width: 609px;
+    width: 666px;
     margin-left: 220px;
     margin-top: 50px;
     position: absolute;
@@ -178,10 +180,9 @@ header .text p{
     position: absolute;
 }
 .dailyReport > img {
-    height: 630px;
-    width: 666px;
-    margin-top: 100px;
-    margin-left: 1050px;
+    width: 920px;
+    margin-top: 50px;
+    margin-left: 1000px;
     position: absolute;
 }
 .ti-write{
@@ -225,7 +226,7 @@ header .text p{
 }
 .circle .contain{
     height: 322px;
-    width: 1200px;
+    width: 1300px;
     margin-left: 322px;
     position: absolute;
 }
@@ -292,7 +293,7 @@ header .text p{
 }
 .members >img {
     margin-left: 1000px;
-    margin-top: 97px;
+    margin-top: 100px;
     position: absolute;
 }
 .members .contain {
@@ -306,7 +307,7 @@ header .text p{
     color: #444444;
     font-family: Roboto;
     font-size: 48px;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 63px;
 }
 .title .ti-user{
@@ -342,6 +343,7 @@ header .text p{
     font-family: Roboto;
     font-size: 14px;
     font-style: italic;
+    text-align: justify ;
     line-height: 19px;
     margin-top: 16px;
     margin-bottom: 35px;
@@ -358,10 +360,9 @@ header .text p{
     position: relative;
 }
 .customers >img  {
-    margin-left: 100px;
-    margin-top: 30px;
-    height: 540px;
-    width: 700px;
+    margin-left: 230px;
+    margin-top: 75px;
+    width: 666px;
     position: absolute;
 }
 .customers .contain
@@ -407,10 +408,11 @@ header .text p{
 }
 .customers .line [class^="ti-"]{
     color: #8BC34A;
-    position: absolute;
-    margin-right: 17px;
+    text-align: justify;
     margin-top: 5px;
     font-size: 18px;
+    position: absolute;
+    margin-right: 17px;
 }
 .customers .line p{
     margin-left: 35px;
@@ -512,10 +514,9 @@ header .text p{
     position: relative;
 }
 .project >img{
-    height: 644px;
-    width: 666px;
+    width: 900px;
     margin-left: 970px;
-    margin-top: 100px;
+    margin-top: 34px;
     position: absolute;
 }
 .project .contain-left{
@@ -528,7 +529,7 @@ header .text p{
     margin-top: 97px;
     font-family: Roboto;
     font-size: 48px;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 63px;
 }
 .title .ti-calendar{
@@ -607,7 +608,7 @@ header .text p{
     width: 200px;
     color: #8BC34A;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 18px;
     position: relative;
