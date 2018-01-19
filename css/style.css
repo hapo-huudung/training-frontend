@@ -6,6 +6,9 @@ header{
     background-image: url("../img/rectangle .jpg");
     background-repeat: no-repeat;
 }
+body{
+    margin: 0px;
+}
 .login .about-us {
     height: 16px;
     width: 100px;
@@ -42,23 +45,23 @@ header{
 }
 .icon-container{
     height: 110px;
+    width: 900px;
     margin-top: 53px;
-    margin-left: 607px;
-    margin-right: 607px;
+    margin-left: 507px;
 }
 .icon-container .icon{
     float: left;
     width: 33.33%;
     text-align: center;
 }
-.icon-container p{
+.icon p{
     height: 48px;
     color: #283238;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 300;
     line-height: 48px;
-    margin-top: 14px;
+    margin-top: 24px;
 }
 .icon-container .icon [class^="ti-"]{
     font-size: 48px;
@@ -67,12 +70,14 @@ header{
     margin-top: 53px;
     text-align: center;
 }
-.login .text p{
+header .text p{
     color: #283238;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 17px;
     font-style: italic;
     line-height: 24px;
+    width: 600px;
+    margin-left: 698px;
 }
 .header-button{
     margin-top: 22px;
@@ -149,7 +154,7 @@ header{
     line-height: 19px;
     margin-top: 16px;
 }
-.text-content{
+.todayILearnt .text-content{
     width: 545px;
     color: #283238;
     font-family: Roboto;
@@ -157,6 +162,7 @@ header{
     line-height: 24px;
     text-align: justify;
     margin-bottom: 40px;
+    margin-top: 35px;
 }
 
 .dailyReport{
@@ -193,7 +199,6 @@ header{
 }
 .dailyReport .contain .text
 {
-    height: 19px;
     color: #283238;
     font-family: Roboto;
     font-size: 13px;
@@ -201,9 +206,8 @@ header{
     line-height: 19px;
     margin-top: 16px;
 }
-.dailyReport .contain .text-2
+.dailyReport .contain .text-content
 {
-    height: 192px;
     width: 453px;
     color: #283238;
     font-family: Roboto;
@@ -211,6 +215,7 @@ header{
     line-height: 24px;
     text-align: justify;
     margin-bottom: 40px;
+    margin-top: 30px;
 }
 .circle{
     height: 322px;
@@ -360,17 +365,29 @@ header{
     font-size: 36px;
     color: #444444;
 }
+.customers .text{
+    color: #283238;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
 .customers .line{
     width: 556px;
     color: #283238;
     font-family: Roboto;
     font-size: 14px;
+    line-height: 24px;
     margin-bottom: 17px;
+
     position: relative;
 }
 .customers .line [class^="ti-"]{
     position: absolute;
     margin-right: 17px;
+    margin-top: 5px;
     font-size: 18px;
 }
 .customers .line p{
