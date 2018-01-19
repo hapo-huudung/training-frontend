@@ -91,6 +91,7 @@ header .text p{
      width: 225px;
      border-radius: 100px;
      border: none;
+     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
      background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
      color: #FFFFFF;
      font-family: Roboto;
@@ -181,7 +182,7 @@ header .text p{
 }
 .dailyReport > img {
     width: 920px;
-    margin-top: 50px;
+    margin-top: 28px;
     margin-left: 1000px;
     position: absolute;
 }
@@ -260,14 +261,13 @@ header .text p{
     margin-top: 82px;
 }
 .oval .mini-oval p{
-    height: 32px;
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 24px;
     letter-spacing: 1px;
     position: absolute;
-    margin-left:13px ;
-    margin-top: 7px;
+    margin-left:14px ;
+    margin-top: 9px;
 }
 .oval [class^="ti-"]{
     color: #FFFFFF;
@@ -397,10 +397,10 @@ header .text p{
     margin-bottom: 35px;
 }
 .customers .line{
-    width: 556px;
+    width: 530px;
     color: #283238;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
     margin-bottom: 17px;
 
@@ -597,7 +597,7 @@ header .text p{
 .contain-left .column .p-content{
     color: #D0D8DC;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 500;
     line-height: 14px;
     margin-top: 10px;
@@ -621,7 +621,7 @@ header .text p{
 .footer .contain-right{
     width: 200px;
     margin-left: 1365px;
-    margin-top: 118px;
+    margin-top: 108px;
     position: absolute;
 }
 .footer .contain-right [class^="ti-"]
