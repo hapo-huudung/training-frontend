@@ -282,7 +282,6 @@ header .start-now{
 .members{
     width: 1920px;
     height: 574px;
-    padding-top:97px ;
 }
 .members [class^="zone-"]{
     float: left;
@@ -298,11 +297,13 @@ header .start-now{
     font-weight: 300;
     line-height: 63px;
     margin-left: 390px;
+    margin-top: 97px;
 }
 .zone-first .ti-user{
     font-size: 36px;
     color: #444444;
     margin-right:18px;
+    margin-top: 97px;
 }
 .members .zone-first .text{
     color: #283238;
@@ -343,6 +344,7 @@ header .start-now{
 }
 .members .zone-second img{
     margin-left: 100px;
+    margin-top: 100px;
 }
 /*customers*/
 .customers{
