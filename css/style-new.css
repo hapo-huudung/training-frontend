@@ -40,7 +40,7 @@ header{
 }
 
 .hapo-erp{
-    margin-top: 165px;
+    margin-top: 215px;
     padding-left: 832px;
 }
 
@@ -502,22 +502,25 @@ header .start-now{
     height: 644px;
     background-color: #FFFFFF ;
 }
-.project [class^="zone-"]{
+.project .zone-first{
+    width: 960px;
     height: 644px;
+    margin-top: -25px;
     float: left;
+
 }
 .project .zone-second{
     width: 960px;
-}
-.project .zone-first{
-    width: 570px;
-    padding-left: 390px;
+    height: 644px;
+    margin-top: -25px;
+    float: left;
 }
 .project .ti-calendar{
     color: #444444;
     font-size: 36px;
     line-height: 36px;
     margin-right: 18px;
+    margin-left: 360px;
 }
 .project .zone-first .title{
 	color: #444444;
@@ -535,6 +538,7 @@ header .start-now{
     font-style: italic;
     line-height: 19px;
     margin-top: 16px;
+    margin-left: 360px;
 }
 .project .zone-first .text-content{
     width: 470px;
@@ -545,8 +549,11 @@ header .start-now{
     text-align: justify;
     margin-top: 30px;
     margin-bottom: 40px;
+    margin-left: 360px;
 }
-
+.project button{
+    margin-left: 360px;
+}
 .project .zone-second img{
     margin-left: 20px;
     width: 940px;
