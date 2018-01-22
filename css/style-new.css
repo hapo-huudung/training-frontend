@@ -26,6 +26,7 @@ header{
     outline: none;
     background: none;
     border: none;
+    cursor: pointer;
 }
 .login .sign-in{
     border: 2px solid #8BC34A;
@@ -38,6 +39,7 @@ header{
     font-weight: 500;
     letter-spacing: 1px;
     outline: none;
+    cursor: pointer;
     line-height: 16px;
     margin-left: 38px;
 }
@@ -645,6 +647,9 @@ header .start-now{
     text-decoration: none;
     font-weight: 500;
     line-height: 20px;
+}
+.zone-first .column a:hover{
+    color: #8BC34A;
 }
 
 .zone-first .column .p-title{
