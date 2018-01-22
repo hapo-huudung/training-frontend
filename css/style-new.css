@@ -444,7 +444,6 @@ header .start-now{
     position: relative;
 }
 .info .oval-ava-small{
-    margin-left: 78px;
     width: 80px;
     height: 80px;
     -moz-transition: all 0.3s;
@@ -454,6 +453,11 @@ header .start-now{
     line-height: 14px;
     font-family: Roboto;
     font-size: 14px;
+}
+.oval-ava-small img{
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .name{
     color: #FFFFFF;
@@ -476,6 +480,7 @@ header .start-now{
 }
 .info .oval-ava-small:hover img,
 .info .oval-ava-small:hover p{
+    max-width: 100%;
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
