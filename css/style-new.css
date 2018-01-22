@@ -17,6 +17,11 @@ header{
     padding-left: 1344px;
 }
 .login .about-us{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 16px;cus
     height: 16px;
     width: 100px;
     color: #283238;
@@ -80,7 +85,7 @@ header >p{
     font-size: 18px;
     font-style: italic;
     line-height: 24px;
-    margin-top: 50px;
+    display: inline-block;
     margin-left: 698px;
     margin-bottom: 22px;
 }
@@ -349,7 +354,6 @@ header .start-now{
 .customers{
     height: 661px;
     width: 1920px;
-    background-color: #FFFFFF;
     box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 }
 .customers [class^="zone-"]{
@@ -404,6 +408,7 @@ header .start-now{
     font-family: Roboto;
     font-size: 13px;
     line-height: 24px;
+    text-align: justify;
     margin-left: 36px;
     position: absolute;
 }
@@ -592,7 +597,7 @@ header .start-now{
     line-height: 13px;
     margin-top: 36px;
 }
-.zone-first .column .p-content{
+.zone-first .column a{
     color: #D0D8DC;
     font-family: Roboto;
     font-size: 10px;
