@@ -21,10 +21,9 @@ header{
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 16px;cus
-    height: 16px;
-    width: 100px;
+    line-height: 16px;
     color: #283238;
+    outline: none;
     background: none;
     border: none;
 }
@@ -40,6 +39,7 @@ header{
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1px;
+    outline: none;
     line-height: 16px;
     margin-left: 38px;
 }
@@ -79,7 +79,6 @@ header{
     margin-top: 14px;
 }
 header >p{
-    width: 600px;
     color: #283238;
     font-family: Roboto;
     font-size: 18px;
@@ -90,7 +89,7 @@ header >p{
     margin-bottom: 22px;
 }
 .start-now{
-    padding: 18px,55px;
+    padding: 18px 55px;
     height: 60px;
     width: 225px;
     border-radius: 100px;
@@ -104,6 +103,8 @@ header >p{
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 24px;
+    outline: none;
+
 }
 
 .start-now:hover {
@@ -241,7 +242,7 @@ header .start-now{
     width: 109.5px;
     border: 2.5px solid #FFFFFF;
     border-radius: 50%;
-    margin-left: 60px;
+    margin-left: 80px;
     margin-top: 69px;
     position: relative;
 }
@@ -462,8 +463,8 @@ header .start-now{
     margin-left: 5px;
 }
 .info .oval-ava-small :hover{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     margin-left: 6px;
 }
 .ourCustomer .zone-third{
@@ -601,6 +602,7 @@ header .start-now{
     color: #D0D8DC;
     font-family: Roboto;
     font-size: 10px;
+    text-decoration: none;
     font-weight: 500;
     line-height: 20px;
 }
