@@ -90,8 +90,6 @@ header >p{
 }
 .start-now{
     padding: 18px 55px;
-    height: 60px;
-    width: 225px;
     border-radius: 100px;
     border: none;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
@@ -178,7 +176,6 @@ header .start-now{
 }
 
 .dailyReport .zone-first .title{
-    height: 63px;
     color: #444444;
     font-family: Roboto;
     font-size: 48px;
@@ -295,7 +292,6 @@ header .start-now{
 }
 
 .members .zone-first .title{
-    height: 63px;
     color: #444444;
     font-family: Roboto;
     font-size: 48px;
@@ -321,7 +317,6 @@ header .start-now{
     margin-left: 390px;
 }
 .members .zone-first .line{
-    width: 519px;
     height: 50px;
     margin-bottom: 17px;
     margin-left: 390px;
@@ -355,7 +350,7 @@ header .start-now{
 .customers{
     height: 661px;
     width: 1920px;
-    box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 15px 35px 0 rgba(0,0,0,0.5);
 }
 .customers [class^="zone-"]{
     height: 661px;
@@ -391,7 +386,6 @@ header .start-now{
     margin-bottom: 38px;
 }
 .customers .zone-second .line{
-    width: 519px;
     height: 50px;
     margin-bottom: 17px;
     position: relative;
@@ -453,7 +447,7 @@ header .start-now{
     margin-left: 78px;
     width: 80px;
     height: 80px;
-    -moz-transition: all 0.5s;
+    -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-align: center;
@@ -524,9 +518,7 @@ header .start-now{
     position: absolute;
 }
 .zone-third .description{
-    height: 105px;
     width: 760px;
-
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 18px;
@@ -561,7 +553,7 @@ header .start-now{
 .project .zone-second{
     width: 960px;
     height: 644px;
-    margin-top: -25px;
+    margin-top: -30px;
     float: left;
 }
 .project .ti-calendar{
