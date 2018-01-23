@@ -520,6 +520,7 @@ header .start-now{
     font-size: 72px;
     opacity: 0.4;
     left: 487px;
+    bottom: 144px;
     position: absolute;
 }
 .description{
@@ -531,7 +532,7 @@ header .start-now{
     line-height: 30px;
     text-align: justify;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     position: relative;
 }
 .ti-quote-right {
