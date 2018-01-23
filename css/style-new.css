@@ -361,6 +361,7 @@ header .start-now{
 }
 .customers .zone-second{
     padding-top: 129px;
+    padding-left: 20px;
 }
 .customers .zone-second .title{
     color: #444444;
@@ -411,7 +412,8 @@ header .start-now{
     position: relative;
 }
 .our-customer .title{
-    padding: 20px;
+    padding: 40px;
+    padding-bottom: 10px;
     width: 100%;
 }
 .our-customer h2{
@@ -520,7 +522,7 @@ header .start-now{
     line-height: 30px;
     text-align: justify;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 90px;
     position: relative;
 }
 .ti-quote-right {
@@ -540,7 +542,6 @@ header .start-now{
 .project .zone-first{
     padding-top: 97px;
     padding-left: 360px;
-    float: left;
 }
 .project .zone-second{
     padding-top: 34px;
@@ -585,7 +586,7 @@ header .start-now{
     width: 1920px;
     background-color: #39474E;
     box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
-    position: relative;
+    position: absolute;
 }
 .footer .zone-first{
     margin-left: 389px;
