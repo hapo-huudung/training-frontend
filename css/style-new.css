@@ -438,7 +438,6 @@ header .start-now{
     width: 1136px;
     text-align: center;
     margin: auto;
-    padding-top: 30px;
 }
 .our-customer .zone-second .info{
     width: 142px;
@@ -446,6 +445,10 @@ header .start-now{
     float: left;
     color: #FFFFFF;
     position: relative;
+}
+.our-customer .zone-second .owl-item{
+    height: 150px;
+    padding-top: 10px;
 }
 .info .oval-ava-small{
     width: 80px;
