@@ -3,7 +3,13 @@ body{
     margin: 0px;
 
 }
-
+.half{
+    width: 50%;
+    float: left;
+}
+img{
+    display: block;
+}
 header{
     height: 825px;
     width: 1920px;
@@ -120,16 +126,11 @@ header .start-now{
     background-color: #FFFFFF;
     box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 }
+
 .today-i-learnt .zone-second{
-    height: 536px;
-    width: 960px;
-    float: left;
     padding-top: 125px;
 }
 .today-i-learnt .zone-first{
-    height: 611px;
-    width: 780px;
-    float: left;
     padding-left: 180px;
     padding-top: 50px;
 }
@@ -169,14 +170,9 @@ header .start-now{
     height: 652px;
 }
 .daily-report [class^="zone-"]{
-    width: 960px;
-    height: 652px;
     float: left;
 }
 .daily-report .zone-first{
-    width: 570px;
-    height: 508px;
-    float: left;
     padding-top: 144px;
     padding-left: 390px;
 }
@@ -213,10 +209,12 @@ header .start-now{
     margin-top: 30px;
     margin-bottom: 40px;
 }
-.daily-report .zone-second >img{
-    width: 880px;
-    margin-left: 80px;
-    margin-top: 35px;
+.daily-report .zone-second {
+    padding-left: 80px;
+    padding-top: 35px;
+}
+.daily-report .zone-second img{
+    width: 900px;
 }
 /*circle*/
 .circle{
@@ -292,9 +290,6 @@ header .start-now{
     height: 574px;
 }
 .members .zone-first{
-    float: left;
-    width: 570px;
-    height: 380px;
     padding-left: 390px;
     padding-top: 97px;
 }
@@ -346,9 +341,6 @@ header .start-now{
 .members .zone-second {
     padding-left: 100px;
     padding-top: 100px;
-    float: left;
-    width: 860px;
-    height: 377px;
 }
 /*customers*/
 .customers{
@@ -357,11 +349,8 @@ header .start-now{
     box-shadow: 0 15px 35px 0 rgba(0,0,0,0.5);
 }
 .customers .zone-first{
-    height: 596px;
-    width: 790px;
-    float: left;
     padding-left: 170px;
-    padding-top: 65px;
+    padding-top: 52px;
 }
 
 .customers .ti-face-smile{
@@ -371,9 +360,6 @@ header .start-now{
     color: #444444;
 }
 .customers .zone-second{
-    height: 532px;
-    width: 960px;
-    float: left;
     padding-top: 129px;
 }
 .customers .zone-second .title{
@@ -422,10 +408,12 @@ header .start-now{
     height:544px;
     width: 1920px;
     background-image: url("../img/Rectangle 3.jpg");
-    padding-top: 10px;
     position: relative;
 }
-
+.our-customer .title{
+    padding: 20px;
+    width: 100%;
+}
 .our-customer h2{
     color: #FFFFFF;
     font-family: Roboto;
@@ -433,6 +421,7 @@ header .start-now{
     font-weight: 300;
     line-height: 63px;
     text-align: center;
+    margin-top: 0px;
 }
 .our-customer .zone-second{
     height: 140px;
@@ -449,7 +438,7 @@ header .start-now{
 }
 .our-customer .zone-second .owl-item{
     height: 150px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .info .oval-ava-small{
     width: 80px;
@@ -486,8 +475,7 @@ header .start-now{
     font-weight: 300;
     line-height: 10px;
 }
-.info .oval-ava-small:hover img,
-.info .oval-ava-small:hover p{
+.info:hover {
     max-width: 100%;
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -550,20 +538,15 @@ header .start-now{
     background-color: #FFFFFF ;
 }
 .project .zone-first{
-    width: 600px;
-    height: 547px;
     padding-top: 97px;
     padding-left: 360px;
     float: left;
-
 }
 .project .zone-second{
-    width: 960px;
-    height: 620px;
-    float: left;
+    padding-top: 34px;
 }
 .project img{
-    width: 960px;
+    width: 880px;
 }
 .project .ti-calendar{
     color: #444444;
