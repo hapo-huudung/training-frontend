@@ -113,35 +113,38 @@ header .start-now{
     margin-left: 847px;
 }
 /*todayIlearnt*/
-.todayILearnt{
+.today-i-learnt{
     height: 661px;
     width: 1920px;
     background-color: #FFFFFF;
     box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 }
-.todayILearnt [class^="zone-"]{
-    height: 661px;
+.today-i-learnt .zone-second{
+    height: 536px;
     width: 960px;
     float: left;
+    padding-top: 125px;
 }
-.todayILearnt .zone-first img{
-    margin-left: 180px;
-    margin-top: 50px;
+.today-i-learnt .zone-first{
+    height: 611px;
+    width: 780px;
+    float: left;
+    padding-left: 180px;
+    padding-top: 50px;
 }
 .zone-second .ti-bookmark-alt{
     font-size: 36px;
     color: #444444;
     margin-right: 19px;
 }
-.todayILearnt .zone-second .title {
+.today-i-learnt .zone-second .title {
     color: #444444;
     font-family: Roboto;
     font-size: 48px;
     font-weight: 300;
     line-height: 63px;
-    margin-top: 125px;
 }
-.todayILearnt .zone-second .text{
+.today-i-learnt .zone-second .text{
     color: #283238;
     font-family: Roboto;
     font-size: 14px;
@@ -160,43 +163,46 @@ header .start-now{
     margin-top: 35px;
 }
 /*daily report*/
-.dailyReport{
+.daily-report{
     width: 1920px;
     height: 652px;
 }
-.dailyReport [class^="zone-"]{
+.daily-report [class^="zone-"]{
     width: 960px;
     height: 652px;
     float: left;
 }
+.daily-report .zone-first{
+    width: 570px;
+    height: 508px;
+    float: left;
+    padding-top: 144px;
+    padding-left: 390px;
+}
+
 .zone-first .ti-write{
     font-size: 36px;
     color: #444444;
     margin-right:18px;
 }
 
-.dailyReport .zone-first .title{
+.daily-report .zone-first .title{
     color: #444444;
     font-family: Roboto;
     font-size: 48px;
     font-weight: 300;
     line-height: 63px;
-    margin-top: 144px;
-    margin-left: 390px;
 }
-.dailyReport .zone-first .text{
+.daily-report .zone-first .text{
     color: #283238;
     font-family: Roboto;
     font-size: 14px;
     font-style: italic;
     line-height: 19px;
     margin-top: 16px;
-    margin-left: 390px;
 }
-.dailyReport .zone-first button{
-    margin-left: 390px;
-}
-.dailyReport .zone-first .text-content{
+
+.daily-report .zone-first .text-content{
     width: 453px;
     color: #283238;
     font-family: Roboto;
@@ -205,9 +211,8 @@ header .start-now{
     text-align: justify;
     margin-top: 30px;
     margin-bottom: 40px;
-    margin-left: 390px;
 }
-.dailyReport .zone-second >img{
+.daily-report .zone-second >img{
     width: 900px;
     margin-left: 80px;
     margin-top: 35px;
@@ -285,26 +290,24 @@ header .start-now{
     width: 1920px;
     height: 574px;
 }
-.members [class^="zone-"]{
+.members .zone-first{
     float: left;
-    width: 960px;
-    height: 477px;
+    width: 570px;
+    height: 380px;
+    padding-left: 390px;
+    padding-top: 97px;
 }
-
 .members .zone-first .title{
     color: #444444;
     font-family: Roboto;
     font-size: 48px;
     font-weight: 300;
     line-height: 63px;
-    margin-left: 390px;
-    margin-top: 97px;
 }
 .zone-first .ti-user{
     font-size: 36px;
     color: #444444;
     margin-right:18px;
-    margin-top: 97px;
 }
 .members .zone-first .text{
     color: #283238;
@@ -314,12 +317,10 @@ header .start-now{
     line-height: 19px;
     margin-top: 16px;
     margin-bottom: 16px;
-    margin-left: 390px;
 }
 .members .zone-first .line{
     height: 50px;
     margin-bottom: 17px;
-    margin-left: 390px;
     position: relative;
 }
 .line .ti-check-box{
@@ -340,11 +341,13 @@ header .start-now{
 }
 .members .zone-first button {
     margin-top: 30px;
-    margin-left: 390px;
 }
-.members .zone-second img{
-    margin-left: 100px;
-    margin-top: 100px;
+.members .zone-second {
+    padding-left: 100px;
+    padding-top: 100px;
+    float: left;
+    width: 860px;
+    height: 377px;
 }
 /*customers*/
 .customers{
@@ -352,21 +355,25 @@ header .start-now{
     width: 1920px;
     box-shadow: 0 15px 35px 0 rgba(0,0,0,0.5);
 }
-.customers [class^="zone-"]{
-    height: 661px;
-    width: 960px;
+.customers .zone-first{
+    height: 596px;
+    width: 790px;
     float: left;
+    padding-left: 170px;
+    padding-top: 65px;
 }
-.customers .zone-first img{
-    margin-left: 170px;
-    margin-top: 65px;
-    width: 666px;
-}
+
 .customers .ti-face-smile{
     margin-right: 19px;
     margin-top: 144px;
     font-size: 36px;
     color: #444444;
+}
+.customers .zone-second{
+    height: 532px;
+    width: 960px;
+    float: left;
+    padding-top: 129px;
 }
 .customers .zone-second .title{
     color: #444444;
@@ -374,7 +381,6 @@ header .start-now{
     font-size: 48px;
     font-weight: 300;
     line-height: 63px;
-    margin-top: 129px;
 }
 .customers .text{
     color: #283238;
@@ -411,34 +417,32 @@ header .start-now{
     margin-top: 30px;
 }
 /*ourcustomers*/
-.ourCustomer{
+.our-customer{
     height:544px;
     width: 1920px;
     background-image: url("../img/Rectangle 3.jpg");
-    padding-top: 50px;
+    padding-top: 10px;
     position: relative;
 }
 
-.ourCustomer .zone-first{
-    height: 63px;
+.our-customer h2{
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 48px;
     font-weight: 300;
     line-height: 63px;
-    margin-left: 816px;
+    text-align: center;
 }
-.ourCustomer .zone-second{
-    height: 200px;
+.our-customer .zone-second{
+    height: 140px;
     width: 1136px;
     text-align: center;
-    float: left;
-    margin-left: 398px;
-    margin-top: 30px;
+    margin: auto;
+    padding-top: 30px;
 }
-.ourCustomer .zone-second .info{
+.our-customer .zone-second .info{
     width: 142px;
-    height: 200px;
+    height: 140px;
     float: left;
     color: #FFFFFF;
     position: relative;
@@ -453,22 +457,23 @@ header .start-now{
     line-height: 14px;
     font-family: Roboto;
     font-size: 14px;
+    margin: auto;
 }
 .oval-ava-small img,
 .oval-ava-small p{
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    margin: auto;
 }
 .name{
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 13px;
     font-weight: 300;
-    line-height: 13px;
-    margin-top: 16px;
-    margin-left: 5px;
+    line-height: 25px;
     text-align: center;
+
 }
 .job{
     color: #FFFFFF;
@@ -476,8 +481,6 @@ header .start-now{
     font-size: 10px;
     font-weight: 300;
     line-height: 10px;
-    margin-top: -5px;
-    text-align: center;
 }
 .info .oval-ava-small:hover img,
 .info .oval-ava-small:hover p{
@@ -486,11 +489,10 @@ header .start-now{
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
-.ourCustomer .group-dot{
+.our-customer .group-dot{
     height: 10px;
     width: 100px;
-    margin-left: 935px;
-    padding-left: 20px;
+   margin: auto;
 }
 .dot-first{
     height: 10px;
@@ -509,21 +511,14 @@ header .start-now{
     margin-left: 23px;
     float: left;
 }
-.ourCustomer .zone-third{
-    height: 250px;
-    width: 950px;
-    margin-left: 485px;
-    margin-top: 30px;
-    float: left;
-    position: relative;
-}
-.zone-third .ti-quote-left{
+.ti-quote-left{
     color: #FFFFFF;
     font-size: 72px;
     opacity: 0.4;
+    left: 487px;
     position: absolute;
 }
-.zone-third .description{
+.description{
     width: 760px;
     color: #FFFFFF;
     font-family: Roboto;
@@ -531,16 +526,16 @@ header .start-now{
     font-weight: 300;
     line-height: 30px;
     text-align: justify;
-    margin-left: 100px;
-    margin-top: 35px;
-    position: absolute;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
 }
-.zone-third .ti-quote-right {
+.ti-quote-right {
     color: #FFFFFF;
     font-size: 72px;
-    margin-left: 875px;
-    margin-top: 115px;
     opacity: 0.4;
+    right: 486px;
+    bottom: 30px;
     position: absolute;
 }
 /*project*/
@@ -550,24 +545,26 @@ header .start-now{
     background-color: #FFFFFF ;
 }
 .project .zone-first{
-    width: 960px;
-    height: 644px;
-    margin-top: -25px;
+    width: 600px;
+    height: 547px;
+    padding-top: 97px;
+    padding-left: 360px;
     float: left;
 
 }
 .project .zone-second{
     width: 960px;
-    height: 644px;
-    margin-top: -30px;
+    height: 620px;
     float: left;
+}
+.project img{
+    width: 960px;
 }
 .project .ti-calendar{
     color: #444444;
     font-size: 36px;
     line-height: 36px;
     margin-right: 18px;
-    margin-left: 360px;
 }
 .project .zone-first .title{
 	color: #444444;
@@ -575,7 +572,6 @@ header .start-now{
     font-size: 48px;
     font-weight: 300;
     line-height: 63px;
-    margin-top: 97px;
 }
 .project .zone-first .text{
     width: 462px;
@@ -585,7 +581,6 @@ header .start-now{
     font-style: italic;
     line-height: 19px;
     margin-top: 16px;
-    margin-left: 360px;
 }
 .project .zone-first .text-content{
     width: 470px;
@@ -596,16 +591,7 @@ header .start-now{
     text-align: justify;
     margin-top: 30px;
     margin-bottom: 40px;
-    margin-left: 360px;
 }
-.project button{
-    margin-left: 360px;
-}
-.project .zone-second img{
-    margin-left: 20px;
-    width: 940px;
-}
-
 .footer{
     height: 180px;
     width: 1920px;
